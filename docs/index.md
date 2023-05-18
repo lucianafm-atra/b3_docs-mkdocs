@@ -3,9 +3,8 @@
 
 
 ## **Projeto EDC On-premisse**
-Lorem ipsum dolor sit amet. Est cumque vero non voluptatem ullam qui quae quaerat aut dolor adipisci. Cum vitae porro et officia perspiciatis et molestiae magni ut corrupti unde ea magnam quos.
-Lorem ipsum dolor sit amet. Est cumque vero non voluptatem ullam qui quae quaerat aut dolor adipisci. Cum vitae porro et officia perspiciatis et molestiae magni ut corrupti unde ea magnam quos.
-Lorem ipsum dolor sit amet. Est cumque vero non voluptatem ullam qui quae quaerat aut dolor adipisci. Cum vitae porro et officia perspiciatis et molestiae magni ut corrupti unde ea magnam quos.
+O processo construído se trata da exportação automática de arquivos .PDM a partir do PowerDesigner. Com base no nome dos arquivos, a base EDC é enriquecida via API, catalogando os respectivos ativos apresentados no “Arquivo.PDM”.
+
 
 
 
