@@ -1,0 +1,45 @@
+site_name:  Telefonica | Projeto Vivo - EDC
+#repo_rul: https://github.com/abiavatti/Documentacao-Atra
+#repo_name: abiavatti/Documentacao-Atra
+#edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  logo: images/logo_1.png
+  favicon: images/logo_2.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: amber
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+nav:
+  - Home: index.md
+  - Objetivo: objetivo.md
+  - Arquitetura e stack da solução: arquitetura_stack.md
+  - Acesso e execução do código fonte ou ativos desenvolvidos: acesso_e_exec_cod_fonte.md
+  - Alterações, teste e validação: alter_test_valid.md
+  - Deploy, atualização e monitoramento: deploy_atualiz_monitoram.md
+  - Referências: referencias.md
+
+markdown_extensions:
+  - pymdownx.tasklist   #lista de tarefas
+  - pymdownx.emoji      #emojis
+  - pymdownx.mark       #marcacoes
+  - pymdownx.tilde      #tachado
+  - pymdownx.highlight  #codigo
+  - pymdownx.superfences  #bloco de codigo
+  - attr_list             #dimensão de imagens
+
+extra_css:
+  - stylesheets/extra.css
