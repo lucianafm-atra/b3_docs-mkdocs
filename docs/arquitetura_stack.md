@@ -8,7 +8,7 @@ Toda a informação de cada modelo exportado do Powerdesigner é armazenada em a
     3. Entregar o arquivo ao consultor que realizará a construção do automatizador
 
 2. O desenvolvedor do automatizador configurou o script para:
-    1. O módulo ‘read_pwd’ localizado no pacote ‘custom_lineage.read’ irá ler o arquivo .PDM
+    1. O módulo ‘read_pdm’ localizado no pacote ‘custom_lineage.read’ irá ler o arquivo .PDM
     2. Interpretar onde estão os metadados físicos e lógicos
         - Nome técnico de schemas
         - Nome funcional de schema
@@ -25,7 +25,7 @@ Toda a informação de cada modelo exportado do Powerdesigner é armazenada em a
         - Map. colunas (destino)
         - Map colunas (origem)
         - Associação entre source -> target
-    4. O módulo ‘read_pwd’ irá separar na pasta ‘json_files’ localizado em ‘files.files’ (em memória ou outro meio) o conteúdo que será enviado ao EDC
+    4. O módulo ‘read_pdm’ irá separar na pasta ‘json_files’ localizado em ‘files.files’ (em memória ou outro meio) o conteúdo que será enviado ao EDC
     5. O módulo ‘to_csv’ localizado no pacote ‘custom_attribute.read”  irá tratar o que for necessário para enriquecer as informações de mapeamento (mandatório) e o módulo ‘request_tt_attributes’ localizado no pacote ‘custom_lineage’ as descrições (desejável) no EDC
     6. Para enviar as informações tratadas para o EDC via API, no caso das lineages será utilizado o módulo ‘request_lineage’ localizado no pacote ‘custom_lineage’ e para as descrições o próprio módulo ‘request_tt_attribute’ irá realizar essa ação.
 3. A execução do script é realizada a partir da VDI do desenvolvedor e outros que quiserem executar
