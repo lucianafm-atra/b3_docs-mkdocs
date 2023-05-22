@@ -19,3 +19,5 @@ Para atualizar o local onde serão salvos os arquivos json extraídos do modelo 
 Para atualizar o local onde serão salvos os arquivos csv que serão carregados para a custom lineage procure pelo parâmetro ‘csv_directory’ em ‘custom_lineage.read.to_csv.py’
 
 Para atualizar o local onde serão salvos os arquivos json que serão carregados para a custom attribute procure pelo parâmetro ‘...’ em ‘custom_attribute.request_attribute.py’
+
+O diretório ‘logs’ contém os arquivos ‘attribute.log’, ‘extract_pdm.log’ e ‘lineage.log’. O script vai escrever nesses arquivos as informações dos processos e os erros que ocorrerem.
