@@ -25,3 +25,6 @@ Todo o processo foi realizado programaticamente, utilizando os métodos e endpoi
     * GET:		/1/catalog/resources/connectionassignments
 - Correção de connections assignment
     * PUT:		/1/catalog/resources/connectionassignments
+
+##Comandos
+Para rodar o projeto, execute o módulo ‘run_script.py’. Este módulo vai indicar 4 opções, uma para executar a extração dos arquivos .pdm do PowerDesigner para o diretório que será usado pelo código. A segunda para a criar o arquivo .csv e a execução do custom_lineage. A terceira vai criar os arquivos .json e a execução do custom_attribute e o quarto para a execução do código completo. As opções serão selecionadas por números de 1 a 4.
